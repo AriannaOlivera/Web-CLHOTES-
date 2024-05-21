@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background: rgb(254, 254, 254);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    background: rgb(0, 0, 0);
+    color: #fff;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.ParteSuperior {
+    font-size: 12px;
+    font-weight: 800;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#logo-marca {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 24px;
+    left: 140px;
+}
+
+#search{
+    position: relative;
+    left: 400px;
+    top: -10px;
+    border: 2px solid rgb(71, 71, 71);
+}
+
+#menu, #lupa, #bag {
+    width: 32px;
+    height: 29px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#menu{
+    position: relative;
+    left: -690px;
+}
+
+#lupa{
+    position: relative;
+    left: 380px;
+}
+
+#bag{
+    position: relative;
+    left: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    margin: 7px 0;
+}
+
+.e {
+    padding: 10px;
+    color: black;
+}
+
+.slogan {
+    background: black;
+    color: white;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    height: 260px;
+}
+
+#text1 {
+    font-size: large;
+    font-weight: 800;
+    margin-top: 35%;
+}
+
+#text2 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.looks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.look {
+    border: 1px solid #f3f3f3;
+    width: 220px;
+    height: 300px;
+}
+
+.look img {
+    width: 100%;
+    height: 100%;
+}
+
+.seccion2, .inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#imagen1{
+    width: 100%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 1400px;
+}
+
+.image-grid img {
+    width: 580px;
+    height: 680px;
+    object-fit: cover;
+}
+
+.contenedor-formulario {
+    text-align: center;
+    margin-top: 890px;
+}
+
+.formulario-suscripcion {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid #131313;
+    background: #fff;
+}
+
+.formulario-suscripcion h2, .formulario-suscripcion p {
+    color: #000;
+}
+
+.formulario-suscripcion form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-suscripcion label {
+    margin-bottom: 5px;
+}
+
+.formulario-suscripcion input, .formulario-suscripcion select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #323232;
+    background: #f8f8f8;
+}
+
+.fecha-nacimiento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fecha-nacimiento input {
+    width: 45%;
+}
+
+.formulario-suscripcion button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f0f0f;
+    border: none;
+    cursor: pointer;
+}
+
+.important-info {
+    display: flex;
+    justify-content: space-evenly;
+    background: #1d1d1d;
+    font-family: Nunito Sans;
+    margin-top: 90px; 
+}
+
+.important-info div {
+    color: #fff;
+    width: auto;
+    font-size: small;
+    font-weight: 400;
+    text-align: justify;
+    margin: 10px;
+}
+
+.important-info a {
+    color: #fff;
+    font-size: x-small;
+    font-weight: 200;
+    text-align: left;
+    margin: 0;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        background: rgb(254, 254, 254);
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    .header {
+        background: rgb(0, 0, 0);
+        color: #fff;
+        height: 53px;
+        line-height: 53px;
+        text-align: center;
+    }
+    
+    .ParteSuperior {
+        font-size: 9px;
+        font-weight: 800;
+        position: absolute;
+        top: 15px;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #logo-marca {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #000000;
+        font-size: 24px;
+        left: 40px;
+    }
+    
+    #search{
+        display: none;
+    }
+    
+    #menu, #lupa, #bag {
+        width: 32px;
+        height: 29px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    
+    #menu{
+        position: relative;
+        left: -690px;
+    }
+    
+    #lupa{
+        position: relative;
+        left: 40px;
+    }
+    
+    #bag{
+        position: relative;
+        left: 70px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #000;
+    }
+    
+    .opciones {
+        display: none;
+    }
+    
+    .e {
+        padding: 10px;
+        color: black;
+    }
+    
+    .slogan {
+        background: black;
+        color: white;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        height: 260px;
+    }
+    
+    #text1 {
+        font-size: large;
+        font-weight: 800;
+        margin-top: 35%;
+    }
+    
+    #text2 {
+        font-size: 80px;
+        font-weight: 800;
+    }
+    
+    .looks {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .look {
+        border: 1px solid #f3f3f3;
+        width: 220px;
+        height: 300px;
+    }
+    
+    .look img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .seccion2, .inferior {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    #imagen1{
+        width: 100%;
+    }
+    
+    .image-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        height: 200%;
+        position: absolute;
+        top: 1400px;
+    }
+    
+    .image-grid img {
+        width: 580px;
+        height: 680px;
+        object-fit: cover;
+    }
+    
+    .contenedor-formulario {
+        text-align: center;
+        margin-top: 1945px; /* Reducción a la mitad */
+    }
+    
+    .formulario-suscripcion {
+        width: 240px; /* Reducción a la mitad */
+        margin: 0 auto;
+        padding: 10px; /* Reducción a la mitad */
+        border: 7.5px solid #131313; /* Reducción a la mitad */
+        background: #fff;
+    }
+    
+    .formulario-suscripcion h2, .formulario-suscripcion p {
+        color: #000;
+    }
+    
+    .formulario-suscripcion form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formulario-suscripcion label {
+        margin-bottom: 2.5px; /* Reducción a la mitad */
+    }
+    
+    .formulario-suscripcion input, .formulario-suscripcion select {
+        margin-bottom: 5px; /* Reducción a la mitad */
+        padding: 5px; /* Reducción a la mitad */
+        border: 0.5px solid #323232; /* Reducción a la mitad */
+        background: #f8f8f8;
+    }
+    
+    .fecha-nacimiento {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .fecha-nacimiento input {
+        width: 45%;
+    }
+    
+    .formulario-suscripcion button {
+        padding: 5px 10px; /* Reducción a la mitad */
+        color: #fff;
+        background-color: #0f0f0f;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .important-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: #1d1d1d;
+        font-family: Nunito Sans;
+        margin-top: 45px; /* Reducción a la mitad */
+    }
+    
+    .important-info div {
+        color: #fff;
+        width: auto;
+        font-size: x-small; /* Reducción a la mitad */
+        font-weight: 400;
+        text-align: justify;
+        margin: 5px; /* Reducción a la mitad */
+    }
+    
+    .important-info a {
+        color: #fff;
+        font-size: xx-small; /* Reducción a la mitad */
+        font-weight: 200;
+        text-align: left;
+        margin: 0;
+    }
+    
+    
+    
+}
